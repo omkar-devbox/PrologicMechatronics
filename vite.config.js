@@ -11,11 +11,42 @@ const pages = [
   'news-events'
 ];
 
+const rawBase = process.env.VITE_BASE || '/';
+const base = rawBase === '/' ? '/' : `/${rawBase.replace(/^\/+|\/+$/g, '')}/`;
+
+function prefixRootUrls(html, basePath) {
+  if (basePath === '/') return html;
+  const escapedBase = basePath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const alreadyPrefixed = new RegExp(`^${escapedBase}`);
+
+  const rewritePath = (path) => {
+    if (path.startsWith('//') || alreadyPrefixed.test(path)) return path;
+    return `${basePath}${path.slice(1)}`;
+  };
+
+  return html
+    .replace(
+      /\b(href|src|poster)=(["'])(\/(?!\/)[^"']*)\2/g,
+      (_match, attr, quote, path) => `${attr}=${quote}${rewritePath(path)}${quote}`
+    )
+    .replace(
+      /url\((['"]?)(\/(?!\/)[^)'"]*)\1\)/g,
+      (_match, quote, path) => `url(${quote}${rewritePath(path)}${quote})`
+    );
+}
+
 export default defineConfig({
+  base,
   plugins: [
     tailwindcss(),
     {
       name: 'multi-page-routing',
+      transformIndexHtml: {
+        order: 'post',
+        handler(html) {
+          return prefixRootUrls(html, base);
+        }
+      },
       configureServer(server) {
         server.middlewares.use((req, res, next) => {
           if (!req.url) return next();

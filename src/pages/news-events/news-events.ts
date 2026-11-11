@@ -16,6 +16,9 @@ interface NewsItemDetails {
   highlights: string[];
 }
 
+const withBase = (path: string): string =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+
 const newsData: Record<string, NewsItemDetails> = {
   'auto-expo-2026': {
     title: 'Showcasing Next-Gen EMS Monorails & IoT Solutions at Automation Expo 2026',
@@ -26,9 +29,9 @@ const newsData: Record<string, NewsItemDetails> = {
     readTime: '4 min read',
     author: 'Dayanand Dalvi',
     authorRole: 'Managing Director',
-    authorAvatar: '/images/about-us/leadership/director-dayanand-dalvi.png',
+    authorAvatar: withBase('/images/about-us/leadership/director-dayanand-dalvi.png'),
     location: 'Pune International Exhibition Centre, MIDC',
-    image: '/images/home/capabilities/hero-factory-hd.jpg',
+    image: withBase('/images/home/capabilities/hero-factory-hd.jpg'),
     fullContent: `Prologic Mechatronics is proud to announce its participation at the prestigious Automation Expo 2026. At Stall B-42, our team of seasoned automation engineers will exhibit live demonstration models of our next-generation Electric Monorail Systems (EMS) and Electric Bi-rail Systems (EBS).\n\nKey highlights include live integration demonstrations of IoT-enabled edge gateways collecting operational vibration, motor current, and thermal telemetry, feeding directly into cloud-based SCADA predictive maintenance systems.\n\nVisitors will also get hands-on access to engineering layouts, simulation models of high-bay ASRS stackers, and specialized automotive chassis transfer systems designed specifically for EV body-in-white (BIW) applications.`,
     highlights: [
       'Live running EMS Monorail carrier demo with synchronized vertical lifting',
@@ -46,9 +49,9 @@ const newsData: Record<string, NewsItemDetails> = {
     readTime: '3 min read',
     author: 'Prologic Works Bureau',
     authorRole: 'Engineering Operations',
-    authorAvatar: '/images/common/prologic-header-logo.svg',
+    authorAvatar: withBase('/images/common/prologic-header-logo.svg'),
     location: 'Kuruli Works, Chakan MIDC, Pune',
-    image: '/images/home/capabilities/plant-1-hd.jpg',
+    image: withBase('/images/home/capabilities/plant-1-hd.jpg'),
     fullContent: `To meet the skyrocketing demand for heavy-duty automotive assembly conveyors and automated logistics lines, Prologic Mechatronics Pvt. Ltd. has completed a massive 25,000 sq.ft. expansion of its dedicated manufacturing and pre-commissioning facility in Kuruli, Chakan.\n\nThe new facility features heavy-duty overhead 20-ton cranes, laser alignment beds, and dedicated pre-commissioning testing bays. This enables full Factory Acceptance Testing (FAT) with actual product payloads before dispatch to OEM sites, dramatically reducing customer on-site commissioning timelines by up to 40%.\n\nWith this milestone, Prologic cements its standing as a turnkey powerhouse capable of executing mega-scale automotive assembly lines simultaneously.`,
     highlights: [
       '25,000 sq.ft. dedicated heavy assembly and pre-commissioning shop floor',
@@ -66,9 +69,9 @@ const newsData: Record<string, NewsItemDetails> = {
     readTime: '5 min read',
     author: 'Electrical & Controls Team',
     authorRole: 'Systems R&D',
-    authorAvatar: '/images/solutions/electrical_control_clean.jpg',
+    authorAvatar: withBase('/images/solutions/electrical_control_clean.jpg'),
     location: 'Pune Tech Center',
-    image: '/images/solutions/electrical_control_clean.jpg',
+    image: withBase('/images/solutions/electrical_control_clean.jpg'),
     fullContent: `Prologic Mechatronics has launched its proprietary Industry 4.0 software layer: Prologic Smart SCADA Cloud. Built specifically for complex overhead monorail loops, floor conveyors, and ASRS warehouse cells, the system brings enterprise IoT connectivity straight to shop floor operations.\n\nThe architecture connects field sensors and PLC systems (Siemens S7-1500, Rockwell ControlLogix, and Mitsubishi iQ-R) with cloud edge compute, providing plant managers with real-time operational cycle times, energy consumption heatmaps, and automated predictive failure alerts.\n\nInitial pilot deployments in commercial vehicle assembly lines showed a 19% reduction in unplanned downtime and a 12% boost in overall conveyor energy efficiency.`,
     highlights: [
       'Multi-vendor PLC protocol support (OPC-UA, MQTT, PROFINET, Ethernet/IP)',
@@ -86,9 +89,9 @@ const newsData: Record<string, NewsItemDetails> = {
     readTime: '3 min read',
     author: 'Project Execution Team',
     authorRole: 'Turnkey Installation',
-    authorAvatar: '/images/common/prologic-header-logo.svg',
+    authorAvatar: withBase('/images/common/prologic-header-logo.svg'),
     location: 'Chakan Industrial Belt',
-    image: '/images/solutions/floor_conveyor_clean.jpg',
+    image: withBase('/images/solutions/floor_conveyor_clean.jpg'),
     fullContent: `Prologic Mechatronics successfully designed, manufactured, installed, and commissioned an end-to-end heavy cabin transfer conveyor line for a leading commercial vehicle manufacturer in Chakan.\n\nThe project spanned 420 meters of precision heavy-duty roller conveyors, 4 electro-hydraulic transfer cars, and integrated vertical lifters capable of 6-ton payload handling with synchronized positioning within +/- 1.0mm.\n\nThe entire installation was executed during a scheduled 10-day annual plant shutdown without disrupting regular vehicle assembly operations.`,
     highlights: [
       'Turnkey delivery: 420 meters heavy-duty automated conveyor line',
@@ -106,9 +109,9 @@ const newsData: Record<string, NewsItemDetails> = {
     readTime: '4 min read',
     author: 'Senior Leadership',
     authorRole: 'Engineering Directorate',
-    authorAvatar: '/images/about-us/leadership/director-dayanand-dalvi.png',
+    authorAvatar: withBase('/images/about-us/leadership/director-dayanand-dalvi.png'),
     location: 'JW Marriott, Pune',
-    image: '/images/solutions/asrs_systems_clean.jpg',
+    image: withBase('/images/solutions/asrs_systems_clean.jpg'),
     fullContent: `Prologic Mechatronics senior engineering leadership presented the keynote address at the National Industrial Logistics & Warehousing Summit on the theme of "Engineering Carbon-Efficient Material Handling Networks".\n\nThe presentation showcased real-world data from Prologic installations showing up to 31% reductions in lifecycle electrical consumption through the deployment of regenerative vertical lifters, IE4 super-premium efficiency gearmotors, and smart intermittent-run conveyor logic.\n\nThe session was attended by more than 120 senior plant directors, logistics heads, and automation leaders from across India.`,
     highlights: [
       'Keynote presented by Prologic Senior Engineering Leadership',
@@ -126,9 +129,9 @@ const newsData: Record<string, NewsItemDetails> = {
     readTime: '2 min read',
     author: 'Safety Directorate',
     authorRole: 'HSE Committee',
-    authorAvatar: '/images/common/prologic-header-logo.svg',
+    authorAvatar: withBase('/images/common/prologic-header-logo.svg'),
     location: 'Maharashtra Safety Council',
-    image: '/images/home/capabilities/plant-2-hd.jpg',
+    image: withBase('/images/home/capabilities/plant-2-hd.jpg'),
     fullContent: `Prologic Mechatronics Pvt. Ltd. was recognized with the prestigious Safety Excellence Award by the Industrial Safety Council of Maharashtra for recording 1,000,000 continuous safe man-hours across manufacturing works and field installation sites.\n\nStrict adherence to safety interlocking, fail-safe pneumatic braking systems, and rigorous on-site erection protocols have made Prologic a benchmark for safety in industrial automation.\n\nFounder & MD Mr. Dayanand Dalvi thanked the entire engineering and site commissioning workforce for their unwavering commitment to zero harm.`,
     highlights: [
       '1,000,000 continuous safe man-hours milestone achieved',
