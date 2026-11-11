@@ -1,0 +1,36 @@
+{
+  "id": "double-flap-damper-valves",
+  "title": "Double Flap Damper Valves",
+  "model": "DFDV Series",
+  "image": "/Counter-Weight-Operated-Double-Flap-Valve.png",
+  "category": "severe",
+  "categoryLabel": "Hopper Dust Discharge",
+  "tagline": "Dual-chamber mechanical airlock valve discharging heavy dust and ash while maintaining airtight vacuum seal.",
+  "desc": "Dual-chamber mechanical airlock valve that continuously discharges fly ash, cement clinker dust, and heavy ores from baghouse hoppers and electrostatic precipitators without letting atmospheric air infiltrate into the vacuum system.",
+  "longDesc": "The DFDV Series Double Flap Damper functions as a reliable mechanical airlock for bulk solids discharge. Two counter-weighted or motor-driven flaps alternate opening cycles, ensuring that one flap is always closed to maintain the airtight vacuum boundary in hoppers and cyclones.",
+  "keyHighlights": [
+    "Continuous airtight pressure boundary during solids discharge",
+    "Available with gravity counterweight arms or motorized cam drives",
+    "Replaceable Hardox wear liners and Stellite hardfaced contact seats",
+    "Resistant to bridging, clogging, and heavy thermal distortion"
+  ],
+  "leakage": "Airtight Vacuum Boundary Maintenance",
+  "temp": "Up to +450°C",
+  "pressure": "Vacuum to +2,000 mmWC",
+  "sizes": "200 x 200 mm to 1,200 x 1,200 mm Flange Opening",
+  "materials": "IS2062 Steel, Hardox 400 Wear Liners, Stellite / Hardfaced Flap Contact Edges",
+  "actuation": "Geared Electric Motor with Cam Mechanism or Gravity Counterweight Levers",
+  "standards": "Dust Containment & Bulk Material Handling Codes",
+  "features": [
+    "Two isolated chambers with precision machined flap seats",
+    "Replaceable Hardox 400/500 abrasive wear plates",
+    "Motorized camshaft mechanism ensuring positive sequential cycling",
+    "Inspection access doors on both upper and lower chambers"
+  ],
+  "applications": [
+    "Electrostatic Precipitator (ESP) Ash Hopper Discharge",
+    "Fabric Filter Baghouse Hopper Air Lock Isolation",
+    "Cyclone Dust Collector Bottom Unloading",
+    "Cement Clinker, Lime, and Coal Dust Feeder Chutes"
+  ]
+}

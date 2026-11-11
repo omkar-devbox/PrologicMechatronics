@@ -1,0 +1,36 @@
+{
+  "id": "stack-damper-valves",
+  "title": "Stack Damper Valves",
+  "model": "BE-SD Series",
+  "image": "/Motorized-Stack-Damper-Valve.png",
+  "category": "severe",
+  "categoryLabel": "Chimney Heat Retention",
+  "tagline": "Top-of-stack cap damper retaining boiler warmth and shielding chimneys against monsoon weather ingress.",
+  "desc": "Mounted on the top terminations of industrial exhaust stacks and utility boiler chimneys. Keeps boilers warm during overnight outages by capping stack draft, and protects internal refractory linings against rain and atmospheric moisture ingress.",
+  "longDesc": "Bellator BE-SD Series Stack Damper Valves are installed directly at the top discharge lip of industrial chimneys and utility stacks. When the boiler trips or shuts down overnight, the damper caps the stack, trapping residual heat to accelerate morning restarts while keeping out heavy rain and corrosive moisture.",
+  "keyHighlights": [
+    "Accelerates hot boiler restart after overnight shutdowns",
+    "Protects expensive stack refractory lining from rain and acidic moisture",
+    "Equipped with rain hoods and internal condensate drain troughs",
+    "Wind-load certified structural design for exposed high-altitude duty"
+  ],
+  "leakage": "Weather-Tight & Thermal Retention Shutoff",
+  "temp": "Up to +450°C",
+  "pressure": "Chimney Draft Termination",
+  "sizes": "Ø500 mm to Ø6,000+ mm (Custom Stack Top Diameters)",
+  "materials": "Corten Steel, ASTM A36 with Rain Hood & Condensate Drain Troughs",
+  "actuation": "Heavy-Duty Weather-Proof Electric Actuator / Pneumatic with Manual Override",
+  "standards": "Structural Wind Load & Seismic Verified",
+  "features": [
+    "Integral rain deflector hood and stainless perimeter drip ring",
+    "Internal condensate collection troughs with drain connections",
+    "All-weather IP67/IP68 rated actuators with sun and rain canopies",
+    "Heavy-duty pivots engineered to resist gale-force wind shears"
+  ],
+  "applications": [
+    "Thermal Utility Boiler Chimney Termination Tops",
+    "Combined Cycle Bypass Stack Outlets",
+    "Waste Heat Recovery Boiler (WHRB) Stack Tops",
+    "Industrial Incinerator and Smelter Discharge Stacks"
+  ]
+}

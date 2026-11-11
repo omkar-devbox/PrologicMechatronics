@@ -1,0 +1,36 @@
+{
+  "id": "three-way-diverter-damper-valves",
+  "title": "Three Way Diverter Damper Valves",
+  "model": "BE-60 Series",
+  "image": "/BE60-Motorized-Round-Diverter-Damper-Valve.png",
+  "category": "control",
+  "categoryLabel": "Flow Redirection",
+  "tagline": "High-speed diverter valve engineered for gas turbine CCGT exhaust bypass and HRSG steam recovery.",
+  "desc": "Designed for combined cycle gas turbine (CCGT) exhaust bypass and heat recovery steam generator (HRSG) applications. Fast pivoting flap redirects massive turbine exhaust gas flow between bypass stack and boiler with emergency fail-safe transition under 30 seconds.",
+  "longDesc": "Bellator BE-60 Series Three-Way Diverter Dampers are mission-critical components in Combined Cycle Gas Turbine (CCGT) installations. The single pivot toggle flap safely modulates and redirects massive exhaust streams between the bypass stack (simple cycle) and the heat recovery steam generator (combined cycle).",
+  "keyHighlights": [
+    "Emergency fast trip transition in under 30 seconds",
+    "Continuous seal air barrier for 100% human-safe HRSG entry",
+    "Internal ceramic blanket insulation protecting outer casing",
+    "Electro-hydraulic power unit (HPU) with accumulator fail-safe"
+  ],
+  "leakage": "100% Isolation on Non-Operating Port with Seal Air System",
+  "temp": "Up to +650°C Exhaust Gas",
+  "pressure": "Up to 5,000 mmWC",
+  "sizes": "Round & Square Ducts up to DN4,000",
+  "materials": "ASTM A516 Gr-70, Corten Steel, 304L/316L, Internal Ceramic Blanket Insulation",
+  "actuation": "Electro-Hydraulic Power Unit (HPU) with Fast Trip, Electric Actuator",
+  "standards": "ASME B31.1, NFPA 85, SIL-3 Certified Hydraulic System",
+  "features": [
+    "Double toggle blade design preventing thermal distortion",
+    "Metallic flexible perimeter seal leaves with continuous air purge",
+    "Integrated cold casing insulation system",
+    "Redundant hydraulic cylinders and SIL-3 safety control loop"
+  ],
+  "applications": [
+    "Combined Cycle Power Plants (CCGT Bypass Systems)",
+    "Heat Recovery Steam Generator (HRSG) Inlets",
+    "Waste Heat Recovery Boiler Switching Ducts",
+    "Gas Turbine Fast Peaking Power Stations"
+  ]
+}

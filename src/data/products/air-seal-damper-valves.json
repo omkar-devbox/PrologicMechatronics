@@ -1,0 +1,36 @@
+{
+  "id": "air-seal-damper-valves",
+  "title": "Air Seal Damper Valves",
+  "model": "BE-50 Series",
+  "image": "/BE50-Electric-Air-Seal-Butterfly-Damper-Valve.png",
+  "category": "isolation",
+  "categoryLabel": "Zero-Leakage Barrier",
+  "tagline": "100% Man-Safe zero-leakage isolation damper with continuous pressurized seal air injection system.",
+  "desc": "100% sealing efficiency is achieved by injecting pressurized, preheated seal air into the gap maintained between the tandem flaps. The overpressure air barrier completely eliminates fugitive toxic or hazardous gas pass-through for 100% man-safe maintenance isolation.",
+  "longDesc": "The BE-50 Series Air Seal Butterfly Damper provides absolute 100% gas-tight isolation for applications where human life safety is critical during continuous plant operations. By maintaining a seal air pressure chamber between double tandem discs at a higher pressure than the duct gas, any leakage that occurs consists strictly of clean seal air into the duct.",
+  "keyHighlights": [
+    "100% True Zero Fugitive Gas Leakage Isolation",
+    "Dedicated Seal Air Blower skid with electric heaters and redundant blowers",
+    "Enables safe personnel entry into downstream ducts during live operation",
+    "EN 1751 Class 4 tightest isolation certified"
+  ],
+  "leakage": "100% Zero-Leakage (Continuous Pressurized Air Barrier)",
+  "temp": "-25°C to +825°C",
+  "pressure": "Up to 10,197 mmWC",
+  "sizes": "Ø300 mm to Ø7,000 mm Round / Rectangular up to 12,000 mm",
+  "materials": "ASTM A36, IS2062, ASTM A240 Type 304L/316L/310S, ASTM A516 Gr-70",
+  "actuation": "Electric Actuator / Pneumatic Cylinder with Dedicated Seal Air Blower Skid",
+  "standards": "EN 1751 Class 4, AMCA 500-D, CE / SIL-3 Ready, Seismic Qualified",
+  "features": [
+    "Tandem twin-blade configuration with internal pressurization chamber",
+    "Automated seal air pressure regulation interlocked with plant DCS",
+    "Heavy-duty shaft packing glands with lantern ring purge",
+    "Seismic and high-vibration qualified robust structure"
+  ],
+  "applications": [
+    "Selective Catalytic Reduction (SCR) & DeNOx Isolation",
+    "Flue Gas Desulfurization (FGD) Absorber Inlet/Outlet",
+    "Toxic Chemical and Hazardous Exhaust Gas Systems",
+    "Nuclear Ventilation & Dangerous Media Containment"
+  ]
+}

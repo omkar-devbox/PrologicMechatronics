@@ -1,0 +1,36 @@
+{
+  "id": "multi-louver-damper-valves",
+  "title": "Multi-Louver Damper Valves",
+  "model": "BE-70 Series",
+  "image": "/BE70-Pneumatic-Opposed-Blade-Multilouver-Damper-Valve.png",
+  "category": "control",
+  "categoryLabel": "Opposed / Parallel Blades",
+  "tagline": "Multi-blade aerodynamic modulating damper delivering linear flow regulation and low operating torque.",
+  "desc": "Engineered with multiple synchronized aerodynamic blades for high-precision flow regulation and low operating torque in large rectangular ducts. Opposed blade arrangement delivers linear airflow throttling, while parallel blade synchronization enables rapid gas cutoff.",
+  "longDesc": "The BE-70 Series Multi-Louver Damper is the premier choice for precise flow control and pressure modulation in large duct systems. Multiple streamlined airfoil blades distribute operating torque across several shafts, allowing high-speed response with compact actuation.",
+  "keyHighlights": [
+    "Opposed blade configuration for precise linear flow modulation",
+    "Parallel blade configuration for rapid duct shut-off",
+    "Aerodynamic hollow airfoil blades minimizing system pressure loss",
+    "Modular multi-section design for ducts up to 6,000 x 6,000 mm"
+  ],
+  "leakage": "Up to 99.5% Tight Sealing with Stainless Flexible Edge Seals",
+  "temp": "Up to +750°C",
+  "pressure": "Up to 8,500 mmWC",
+  "sizes": "Up to 6,000 x 6,000 mm Multi-Span Ducts",
+  "materials": "IS2062, Corten Steel, ASTM A240 Type 304L/316L, SS310S",
+  "actuation": "Pneumatic Positioner 4-20mA, Modulating Electric Actuator, Manual Lever",
+  "standards": "AMCA 500-D, EN 1751, CE Marked",
+  "features": [
+    "Precision external linkage mechanism with spherical rod end bearings",
+    "Stainless steel flexible interlocking blade edge seals",
+    "Outboard relubricable flange bearings isolated from duct heat",
+    "Optional seal air system for zero-leakage isolation"
+  ],
+  "applications": [
+    "Forced Draft (FD) & Induced Draft (ID) Fan Modulation",
+    "Gas Turbine Exhaust Tempering & Ventilation Control",
+    "Industrial Boiler Combustion Air Balancing",
+    "Steel Mill Baghouse Air Volume Regulation"
+  ]
+}

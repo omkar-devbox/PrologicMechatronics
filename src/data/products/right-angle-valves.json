@@ -1,0 +1,36 @@
+{
+  "id": "right-angle-valves",
+  "title": "Right Angle Valves",
+  "model": "BE-190 Series",
+  "image": "/BE190-Manual-Right-Angle-Valve-manual.png",
+  "category": "control",
+  "categoryLabel": "Elbow Diversion",
+  "tagline": "Space-saving 90-degree directional elbow valve combining piping turn and process gas isolation.",
+  "desc": "Combines a 90-degree pipeline directional elbow with integral process gas shutoff in a single compact housing. Eliminates the footprint and welding costs of separate duct elbows and valves while reducing gas turbulence and pressure drop.",
+  "longDesc": "The BE-190 Series Right Angle Valve integrates a 90-degree duct elbow and an isolation damper into a single fabricated unit. This compact solution eliminates multiple flanged joints, reduces overall structural weight, and provides smooth flow direction change with tight shutoff.",
+  "keyHighlights": [
+    "Replaces 90° duct elbow and separate valve combination",
+    "Saves substantial plant space and structural installation cost",
+    "Smooth internal contours reducing turbulence and pressure drop",
+    "High temperature capability up to +550°C"
+  ],
+  "leakage": "Class IV / VI (99.5% to 100%)",
+  "temp": "Up to +550°C",
+  "pressure": "Up to 6,000 mmWC",
+  "sizes": "DN150 to DN1,400",
+  "materials": "Fabricated Carbon Steel, ASTM A240 Type 304L / 316L / 310S",
+  "actuation": "Manual Handwheel, Electric Actuator, Pneumatic Cylinder",
+  "standards": "ASME Sec. VIII, EN 1751",
+  "features": [
+    "Integral 90-degree fabricated elbow body",
+    "Heavy-duty disc guide assembly ensuring precise perpendicular seating",
+    "Outboard bearing design isolated from process heat",
+    "Custom inlet and outlet flange dimensions"
+  ],
+  "applications": [
+    "Boiler Burner Secondary & Tertiary Air Ducts",
+    "Corner Duct Transitions in Cement & Steel Plants",
+    "Furnace Exhaust and Flue Gas Chimney Take-Offs",
+    "Compact Industrial Skid Piping Systems"
+  ]
+}

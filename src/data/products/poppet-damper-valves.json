@@ -1,0 +1,36 @@
+{
+  "id": "poppet-damper-valves",
+  "title": "Poppet Damper Valves",
+  "model": "BE-80 Series",
+  "image": "/BE80-Pneumatic-Two-Way-Poppet-Damper-Valve-Verticle-Orientation.png",
+  "category": "control",
+  "categoryLabel": "Fast Pneumatic Stroke",
+  "tagline": "High-speed directional and compartment isolation valve for baghouse pulse-jet cleaning systems.",
+  "desc": "High-speed directional and isolation valves developed for fabric filter baghouses, electrostatic precipitators, and regenerative thermal oxidizers (RTO). Completes full open/close cycle in 3 to 5 seconds to isolate compartments during pulse-jet cleaning.",
+  "longDesc": "The BE-80 Series Poppet Damper is engineered for rapid cycling in dust collection and pollution abatement systems. Its linear reciprocating action allows whole baghouse compartments to be isolated within 3 seconds, enabling online filter cleaning and maintenance without shutting down process production.",
+  "keyHighlights": [
+    "Ultra-fast stroke time: 3 to 5 seconds per cycle",
+    "High cycle life rated for millions of operations",
+    "Available in 2-way and 3-way flow configurations",
+    "Resilient Viton/PTFE or metal-to-metal seat options"
+  ],
+  "leakage": "Up to 99.9% / 100% with Pressurized Perimeter Purge",
+  "temp": "-20°C to +350°C",
+  "pressure": "Differential Pressure up to 4,000 mmWC",
+  "sizes": "DN400 to DN2,500",
+  "materials": "Carbon Steel IS2062, Stainless Steel 304L / 316L, Viton/PTFE/Metal Seals",
+  "actuation": "Heavy-Duty Pneumatic Cylinder with Fast Exhaust Valves & Solenoids",
+  "standards": "AMCA 500-D, EN 1751",
+  "features": [
+    "Direct-mounted high-speed pneumatic cylinder",
+    "Self-aligning disc assembly ensuring uniform perimeter seating",
+    "Robust guide bushings resistant to particulate fouling",
+    "Integral quick exhaust valves and speed controls"
+  ],
+  "applications": [
+    "Fabric Filter Baghouse Compartment Isolation",
+    "Regenerative Thermal Oxidizers (RTO) Switching",
+    "Reverse Gas Baghouse Cleaning Cycles",
+    "Electrostatic Precipitator Inlet/Outlet Headers"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "butterfly-damper-valves",
+  "title": "Butterfly Damper Valves",
+  "model": "BE-10 Series",
+  "image": "/BE10-Motorized-Single-Flap-Butterfly-Damper-Valve.png",
+  "category": "isolation",
+  "categoryLabel": "Isolation & Throttling",
+  "tagline": "Precision engineered single flap butterfly damper for harsh flue gas isolation and aerodynamic throttling.",
+  "desc": "Manufactured in sizes up to 7,000 mm in round shape and up to 12,000 mm in rectangular shape. Features concentric or offset single disc for corrosive, abrasive, and hazardous gas flows. Designed in accordance with key international power and oil & gas standards.",
+  "longDesc": "Bellator Engineers BE-10 Series Butterfly Damper Valves are heavy-duty single disc control and isolation dampers fabricated to withstand extreme industrial environments. Designed for circular and rectangular ductwork systems, these valves provide dependable regulation and tight shut-off in thermal power plants, cement manufacturing, steel mills, and chemical processing complexes.",
+  "keyHighlights": [
+    "Standard sizes up to Ø7,000 mm round & 12,000 mm rectangular",
+    "Engineered for low pressure drop and aerodynamic blade profiles",
+    "Available with step seat, metal-to-metal, or flexible metallic leaf seals",
+    "SIL-2 & CE Qualified manufacturing design"
+  ],
+  "leakage": "Class IV / VI (99.5% - 100% sealing efficiency)",
+  "temp": "-25°C to +825°C",
+  "pressure": "Up to 10,197 mmWC",
+  "sizes": "Ø40 mm to Ø7,000 mm Round / Rectangular up to 12,000 mm",
+  "materials": "ASTM A36, IS2062, ASTM A240 Type 304L/316L/310S, ASTM A516 Gr-70, ASTM A387 Gr-11",
+  "actuation": "Pneumatic Cylinder, Electric Motorized Actuator, Manual Lever & Bevel Gearbox",
+  "standards": "EN 1751, AMCA 500-D, ASME Sec. VIII Div. 1, SIL-2 / CE Qualified",
+  "features": [
+    "Through-shaft or stub-shaft design with high-integrity packing gland",
+    "Outboard heavy-duty pillow block bearings isolated from hot gas stream",
+    "Thermal insulation bonnet extensions for high-temperature media",
+    "Customized face-to-face and flange drilling per customer requirements"
+  ],
+  "applications": [
+    "Thermal Power Plant Flue Gas Desulfurization (FGD)",
+    "Cement Rotary Kiln Exhaust & Raw Mill Ducts",
+    "Steel Plant Sintering & Blast Furnace Gas Lines",
+    "Incinerator & Waste Heat Recovery Systems"
+  ]
+}

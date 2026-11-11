@@ -1,0 +1,36 @@
+{
+  "id": "twin-seal-flap-damper-valves",
+  "title": "Twin Seal Flap Damper Valves",
+  "model": "TSFD Series",
+  "image": "/Twin-Seal-Flap-Damper-Valve.png",
+  "category": "severe",
+  "categoryLabel": "100% Gas Tightness",
+  "tagline": "Dual perimeter seal damper with intermediate seal air pressure chamber for 100% human-safe isolation.",
+  "desc": "Equipped with a dual perimeter elastomeric or metallic sealing arrangement enclosing an intermediate seal air pressure cavity. Injects overpressure purge air to achieve absolute 100% human-safe gas isolation in thermal power plant FGD and SCR ducts.",
+  "longDesc": "The TSFD Series Twin Seal Flap Damper delivers 100% absolute zero-leakage shutoff in a compact single-disc footprint. Two distinct perimeter seal leaves enclose an annular seal air channel that is pressurized with clean air above duct pressure, ensuring zero hazardous gas crossover.",
+  "keyHighlights": [
+    "100% Absolute Zero Leakage in a single-shaft compact envelope",
+    "Intermediate air pressurization cavity between dual seal rings",
+    "Enables safe personnel access inside FGD and SCR chambers",
+    "Sizes up to Ø5,000 mm in circular and rectangular designs"
+  ],
+  "leakage": "100% Gas-Tight (Zero Fugitive Emission)",
+  "temp": "-20°C to +400°C",
+  "pressure": "Up to 6,500 mmWC",
+  "sizes": "Ø500 mm to Ø5,000 mm Round / Square",
+  "materials": "ASTM A240 Type 316L, Corten Steel, Inconel Leaf Seals",
+  "actuation": "Electric Actuator, Pneumatic Cylinder with Seal Air Skid Interlock",
+  "standards": "EN 1751 Class 4, AMCA 500-D, SIL-2 Safety Loop",
+  "features": [
+    "Dual concentric Inconel or stainless leaf seal arrangement",
+    "Automatic seal air valve that activates upon damper closure",
+    "External greaseable flange bearing blocks",
+    "Emergency manual override with lockable handwheel"
+  ],
+  "applications": [
+    "Thermal Power FGD Absorber Bypass & Isolation",
+    "DeNOx Selective Catalytic Reduction (SCR) Ducts",
+    "Incineration Plants & Toxic Gas Thermal Oxidizers",
+    "Smelter Acid Plant Scrubber & Blower Isolation"
+  ]
+}

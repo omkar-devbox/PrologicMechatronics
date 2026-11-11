@@ -1,0 +1,36 @@
+{
+  "id": "straight-pattern-inline-valves",
+  "title": "Straight Pattern (Inline) Valves",
+  "model": "BE-200 Series",
+  "image": "/BE200-Manual-Straight-Pattern-Inline-Valve.png",
+  "category": "control",
+  "categoryLabel": "Straight Pipeline Run",
+  "tagline": "Coaxial in-line shutoff and flow balancing valve engineered for continuous gas and air pipelines.",
+  "desc": "Coaxial in-line shutoff and balancing valves engineered for direct installation into continuous gas piping and ducting without directional deviations. Features full flow port, guided disc travel, and robust packing gland to prevent fugitive air ingress.",
+  "longDesc": "The BE-200 Series Straight Pattern Inline Valve is designed for seamless integration into straight process piping runs. Its coaxial geometry maintains laminar gas flow, minimizing pressure drop while providing positive shut-off and fine manual or automated flow control.",
+  "keyHighlights": [
+    "Coaxial straight-line installation without piping offsets",
+    "Precision guided disc travel preventing stem deflection",
+    "Heavy-duty gland packing preventing external fugitive emissions",
+    "Sizes up to DN1,200 with standard flange drilling"
+  ],
+  "leakage": "Class IV / Class VI Shutoff",
+  "temp": "Up to +450°C",
+  "pressure": "Up to PN16",
+  "sizes": "DN100 to DN1,200",
+  "materials": "Fabricated IS2062, ASTM A216 WCB, ASTM A240 Type 304L / 316L",
+  "actuation": "Manual Bevel Gearbox, Electric Multi-Turn Actuator, Pneumatic Cylinder",
+  "standards": "ASME B16.34, EN 1751",
+  "features": [
+    "Full flow internal bore with streamlined guide ribs",
+    "Replaceable body seats and disc face rings",
+    "Live-loaded stem packing gland with leak detection ports",
+    "Available with handwheel, chainwheel, or motorized actuators"
+  ],
+  "applications": [
+    "Industrial Hot Air and Flue Gas Distribution Piping",
+    "Combustion Air Supply to Burner Arrays",
+    "Ventilation and Process Gas Headers",
+    "Chemical Process Vapors and Steam Exhaust Lines"
+  ]
+}

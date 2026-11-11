@@ -1,0 +1,181 @@
+@import "../../style.css";
+
+/* ==========================================================================
+   Contact Us Page Stylesheet - Editorial / Newsroom Style Match
+   Directly matching /news-events.html & /about-us.html architecture:
+   - 70% Primary Canvas: #F4F7FC / #FFFFFF (Clean News Cards & Pure White Surfaces)
+   - 25% Structural Navy: #101044 (Deep Editorial Navy), #123B73 (Sub-headings), #060E1D (Dark Accent)
+   - 5% Accents: #008BD2 (Press Blue) & #16A34A (Milestone Green)
+   - Borders: #D1DCEB / #E2E8F0 (Crisp Editorial Borders)
+   ========================================================================== */
+
+/* Active link indicator in floating navbar dock */
+#techno-navbar .nav-pill-link.active {
+  background: #FFFFFF !important;
+  color: #008BD2 !important;
+  font-weight: 700;
+  border-color: #D1DCEB !important;
+  box-shadow: 0 2px 8px -1px rgba(0, 139, 210, 0.18), 0 1px 2px rgba(16, 16, 68, 0.05) !important;
+}
+
+/* Contact Hero Stage (Matches news-hero-stage and about-hero-stage) */
+.contact-hero-stage {
+  min-height: 48vh !important;
+  position: relative;
+  background-color: #0B1220;
+}
+
+/* Editorial Surface Cards */
+.editorial-contact-card {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 6px 24px -4px rgba(16, 16, 68, 0.07);
+  transition: all 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.editorial-contact-card:hover {
+  transform: translateY(-4px);
+  border-color: #008BD2;
+  box-shadow: 0 20px 36px -8px rgba(0, 139, 210, 0.14), 0 4px 12px -2px rgba(16, 16, 68, 0.06);
+}
+
+/* Form Card in News Editorial Style */
+.editorial-form-card {
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 24px -4px rgba(16, 16, 68, 0.07);
+}
+
+/* RFQ Form Inputs matching clean news inputs */
+.rfq-input {
+  width: 100%;
+  border-radius: 0.85rem;
+  border: 1.5px solid #D1DCEB;
+  background-color: #F8FAFC;
+  color: #101044;
+  padding: 0.8rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.35rem;
+  transition: all 0.2s ease;
+}
+
+.rfq-input:focus {
+  outline: none;
+  background-color: #FFFFFF;
+  border-color: #008BD2;
+  box-shadow: 0 0 0 4px rgba(0, 139, 210, 0.12);
+}
+
+.rfq-input::placeholder {
+  color: #94A3B8;
+  font-weight: 400;
+}
+
+/* Radio Chip Filters matching news-tab-btn styling */
+.rfq-chip-input {
+  display: none;
+}
+
+.rfq-chip-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.95rem;
+  border-radius: 9999px;
+  border: 1.5px solid #D1DCEB;
+  background-color: #F8FAFC;
+  color: #475569;
+  font-size: 0.775rem;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+.rfq-chip-label:hover {
+  border-color: #008BD2;
+  color: #008BD2;
+  background-color: #FFFFFF;
+}
+
+.rfq-chip-input:checked + .rfq-chip-label {
+  border-color: #101044;
+  background-color: #101044;
+  color: #FFFFFF;
+  box-shadow: 0 4px 14px -2px rgba(16, 16, 68, 0.25);
+}
+
+/* News Metric Badge Card matching news-events.css */
+.news-metric-card {
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 4px 16px -2px rgba(16, 16, 68, 0.05);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.news-metric-card:hover {
+  transform: translateY(-3px);
+  border-color: #008BD2;
+  box-shadow: 0 14px 24px -5px rgba(0, 139, 210, 0.12);
+}
+
+/* Interactive Map Frame */
+.map-frame-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border: 1px solid #D1DCEB;
+  background-color: #FFFFFF;
+  box-shadow: 0 16px 36px -10px rgba(16, 16, 68, 0.08);
+}
+
+/* Copy button tooltip feedback */
+.copy-tooltip {
+  position: absolute;
+  top: -2.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.3rem 0.65rem;
+  border-radius: 0.5rem;
+  background-color: #101044;
+  color: #FFFFFF;
+  font-size: 0.7rem;
+  font-weight: 600;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  box-shadow: 0 4px 12px rgba(16, 16, 68, 0.2);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 20;
+}
+
+.copy-tooltip.active {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-2px);
+}
+
+/* FAQ Accordion Details */
+details.faq-item {
+  border: 1px solid #D1DCEB;
+  border-radius: 1rem;
+  background: #FFFFFF;
+  transition: all 0.25s ease;
+}
+
+details.faq-item[open] {
+  border-color: #008BD2;
+  box-shadow: 0 8px 24px -6px rgba(0, 139, 210, 0.12);
+}
+
+details.faq-item summary::-webkit-details-marker {
+  display: none;
+}

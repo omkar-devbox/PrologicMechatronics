@@ -1,0 +1,36 @@
+{
+  "id": "ventilation-channel-closing-device",
+  "title": "Ventilation Channel Closing Device",
+  "model": "BE-110 Series",
+  "image": "/BE110-Ventilation-Channel-Closing-Device-with-Adaptor.png",
+  "category": "control",
+  "categoryLabel": "Tunnel & Marine Duct",
+  "tagline": "Instant emergency shutoff mechanism for underground tunnels, civil defense shelters, and naval ducts.",
+  "desc": "Instant emergency shutoff mechanism installed in civil defense shelters, naval vessel compartments, underground tunnels, and toxic duct corridors. Triggered mechanically or pneumatically to snap closed within fractions of a second during blast or chemical events.",
+  "longDesc": "The BE-110 Series Ventilation Channel Closing Device is a rapid-response life safety barrier designed to isolate critical air ducts instantly during hazardous gas releases, fires, or blast overpressures. Equipped with fast-release trigger latches and powerful mechanical spring return.",
+  "keyHighlights": [
+    "Instant emergency trigger closing in under 1 second",
+    "Blast overpressure resistant construction up to 2 bar",
+    "Hermetic gas and smoke tight perimeter elastomeric seal",
+    "Meets strict naval and civil defense blast protection codes"
+  ],
+  "leakage": "Hermetic Blast & Gas Tight Seal",
+  "temp": "-30°C to +150°C",
+  "pressure": "Blast Overpressure Resistant up to 2 bar",
+  "sizes": "Custom Sizing with Integral Duct Adaptors",
+  "materials": "High-Tensile Fabricated Carbon Steel, Neoprene / Silicone Perimeter Gaskets",
+  "actuation": "Spring-Return Rapid Release Trigger with Pneumatic/Electric Solenoid",
+  "standards": "Naval & Civil Defense Blast Isolation Standards",
+  "features": [
+    "Pre-tensioned mechanical heavy-duty spring pack",
+    "Electromagnetic or pneumatic trigger release mechanism",
+    "Manual mechanical cocking and emergency trip lever",
+    "Duct adaptors tailored to round, oval, or rectangular profiles"
+  ],
+  "applications": [
+    "Metro Tunnel & Highway Underground Ventilation",
+    "Naval Submarine and Warship Citadel Isolation",
+    "Civil Defense Bunkers and Nuclear Shelters",
+    "Hazardous Chemical Warehouse Air Intake Shutoff"
+  ]
+}

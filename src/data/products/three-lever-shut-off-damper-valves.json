@@ -1,0 +1,36 @@
+{
+  "id": "three-lever-shut-off-damper-valves",
+  "title": "Three Lever Shut Off Damper Valves",
+  "model": "BE-40 Series",
+  "image": "/BE40-Motorized-Three-Lever-ShutOff-Damper-Valves.png",
+  "category": "isolation",
+  "categoryLabel": "Frictionless Seating",
+  "tagline": "Kinematic 3-lever linkage mechanism delivering perpendicular positive shutoff for nuclear and toxic isolation.",
+  "desc": "Unique 3-lever kinematic linkage mechanism that rotates the disc 90° and then shifts it perpendicular into the seat during the final millimeter of closure. Ensures positive sealing without frictional seat dragging, essential for nuclear power, radioactive, and toxic gas lines.",
+  "longDesc": "The BE-40 Series Three Lever Shut Off Damper is engineered for mission-critical containment where any seal wear from rubbing or scrubbing is unacceptable. The specialized kinematic linkage swings the disc through 90 degrees and translates it purely perpendicular into the metallic seat, ensuring absolute seal integrity over decades.",
+  "keyHighlights": [
+    "True perpendicular closure motion with zero seat dragging",
+    "Engineered for nuclear, radioactive, and toxic gas isolation",
+    "Seismic Class 1E Qualified design and construction",
+    "Positive mechanical locking in closed position"
+  ],
+  "leakage": "100% Leak Tight Perpendicular Seal",
+  "temp": "-25°C to +250°C",
+  "pressure": "Up to PN25",
+  "sizes": "Ø300 mm to Ø2,500 mm",
+  "materials": "ASTM A240 Type 304L/316L, A351 CF8/CF8M, A216 WCB, IS2062",
+  "actuation": "Motorized Electric Drive, Pneumatic Cylinder with Fail-Safe Reservoir",
+  "standards": "Seismic Qualified Class 1E Ready, SIL-2, ASME Sec. VIII",
+  "features": [
+    "Precision machined multi-bar kinematic linkage",
+    "Hermetically sealed gland packing with live spring loading",
+    "Integral mechanical position locking mechanism",
+    "Decontamination-friendly smooth internal geometry"
+  ],
+  "applications": [
+    "Nuclear Power Plant Reactor Containment & Ventilation",
+    "Radioactive Off-Gas Filtration Systems",
+    "Chemical Warfare & Biological Containment Facilities",
+    "High-Risk Toxic Gas Pipeline Isolation"
+  ]
+}

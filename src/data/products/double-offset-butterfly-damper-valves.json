@@ -1,0 +1,36 @@
+{
+  "id": "double-offset-butterfly-damper-valves",
+  "title": "Double Offset Butterfly Damper Valves",
+  "model": "BE-20 Series",
+  "image": "/BE20-Pneumatic-Double-Offset-Butterfly-Damper-Valve.png",
+  "category": "isolation",
+  "categoryLabel": "Double Cam Action",
+  "tagline": "High pressure double eccentric cam action damper ensuring bubble-tight shutoff up to PN25.",
+  "desc": "Features two distinct shaft offsets: shaft behind centerline of disc seal, and shaft offset from pipe centerline. This generates an eccentric cam action during rotation that lifts the seal immediately off the seat, virtually eliminating wear and ensuring 100% bubble-tight shutoff up to PN25.",
+  "longDesc": "The BE-20 Series Double Offset Damper utilizes precision dual eccentricity to minimize friction during cycling. The disc cams away from the seat instantly upon opening, significantly prolonging seal longevity and delivering reliable bubble-tight isolation in high-pressure process gas lines.",
+  "keyHighlights": [
+    "High pressure rating up to PN25 (25 bar)",
+    "100% Bubble-Tight Shutoff with resilient or metallic seats",
+    "Reduced operating torque enabling compact actuation packages",
+    "Fire-safe design certified according to API 607"
+  ],
+  "leakage": "100% Bubble-Tight Shutoff (Zero Leakage)",
+  "temp": "-25°C to +250°C",
+  "pressure": "PN10 / PN16 / PN25 (Up to 25 bar)",
+  "sizes": "Ø150 mm to Ø3,500 mm (Round)",
+  "materials": "A216 Gr. WCB, A351 Gr. CF8 / CF8M, ASTM A240 Type 316L, IS2062",
+  "actuation": "Pneumatic Quarter-Turn Cylinder, Electric Actuator, Manual Gearbox",
+  "standards": "API 609 Cat. B, ASME B16.34, EN 593, Fire Safe API 607",
+  "features": [
+    "Dual offset shaft geometry minimizing seat wear",
+    "Renewable seat retainer ring for quick maintenance",
+    "Blow-out proof heavy-duty stainless steel shaft design",
+    "ISO 5211 top flange for universal actuator mounting"
+  ],
+  "applications": [
+    "High Pressure Industrial Gas Lines",
+    "Petrochemical & Refinery Off-Gas Systems",
+    "CO2 Capture & Hydrogen Gas Distribution",
+    "Cooling Gas and Process Air Systems"
+  ]
+}

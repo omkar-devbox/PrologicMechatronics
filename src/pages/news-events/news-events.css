@@ -1,0 +1,147 @@
+@import "../../style.css";
+
+/* ==========================================================================
+   News & Events Page Stylesheet - Prologic Mechatronics
+   Authentic Editorial / Newsroom & Journal Design:
+   - 70% Primary Canvas: #F4F7FC / #FFFFFF (Clean Editorial Background & Pure White News Cards)
+   - 25% Structural Navy: #101044 (Deep Editorial Navy), #123B73 (Sub-headings), #060E1D (Dark Accent)
+   - 5% Accents: #008BD2 (Press Blue) & #16A34A (Milestone Green)
+   - Borders: #E2E8F0 / #D1DCEB (Crisp News Borders)
+   ========================================================================== */
+
+/* Active link indicator in floating navbar dock */
+#techno-navbar .nav-pill-link.active {
+  background: #FFFFFF !important;
+  color: #008BD2 !important;
+  font-weight: 700;
+  border-color: #D1DCEB !important;
+  box-shadow: 0 2px 8px -1px rgba(0, 139, 210, 0.18), 0 1px 2px rgba(16, 16, 68, 0.05) !important;
+}
+
+/* Hero Section (Matching About-Us cinematic stage) */
+.news-hero-stage {
+  min-height: 48vh !important;
+  position: relative;
+  background-color: #0B1220;
+}
+
+/* News Filter Tab Buttons */
+.news-tab-btn {
+  position: relative;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.news-tab-btn:hover:not(.active) {
+  background-color: #FFFFFF;
+  border-color: #008BD2;
+  color: #008BD2;
+}
+
+.news-tab-btn.active {
+  background: #101044 !important;
+  color: #FFFFFF !important;
+  border-color: #101044 !important;
+  box-shadow: 0 4px 14px -2px rgba(16, 16, 68, 0.22);
+}
+
+/* ==========================================================================
+   Editorial News Cards & Articles
+   ========================================================================== */
+.editorial-lead-card {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 6px 24px -4px rgba(16, 16, 68, 0.07);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-lead-card:hover {
+  transform: translateY(-4px);
+  border-color: #008BD2;
+  box-shadow: 0 20px 36px -8px rgba(0, 139, 210, 0.15), 0 4px 12px -2px rgba(16, 16, 68, 0.06);
+}
+
+.editorial-news-card {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 16px -2px rgba(16, 16, 68, 0.05);
+  transition: all 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.editorial-news-card:hover {
+  transform: translateY(-5px);
+  border-color: #008BD2;
+  box-shadow: 0 18px 30px -6px rgba(0, 139, 210, 0.14), 0 3px 10px -2px rgba(16, 16, 68, 0.05);
+}
+
+.editorial-news-card .news-thumbnail-box img,
+.editorial-lead-card .news-thumbnail-box img {
+  transition: transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-news-card:hover .news-thumbnail-box img,
+.editorial-lead-card:hover .news-thumbnail-box img {
+  transform: scale(1.06);
+}
+
+.news-thumbnail-box {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #0B1220;
+}
+
+/* Sidebar Trending News Row */
+.trending-item-row {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #E9EEF7;
+  transition: all 0.2s ease;
+}
+
+.trending-item-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.trending-item-row:hover h4 {
+  color: #008BD2;
+}
+
+/* News Metric Badge Card */
+.news-metric-card {
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 4px 16px -2px rgba(16, 16, 68, 0.05);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.news-metric-card:hover {
+  transform: translateY(-3px);
+  border-color: #008BD2;
+  box-shadow: 0 14px 24px -5px rgba(0, 139, 210, 0.12);
+}
+
+/* Modal Transitions */
+#news-modal.is-open {
+  display: flex !important;
+  opacity: 1;
+}
+
+#news-modal {
+  transition: opacity 0.3s ease;
+}

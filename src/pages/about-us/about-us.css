@@ -1,0 +1,215 @@
+@import "../../style.css";
+
+/* ==========================================================================
+   About Us Page Stylesheet - Prologic Mechatronics
+   Strictly adheres to Solutions & Home 70-25-5 Color Palette & Design System:
+   - 70% Primary Canvas: #E9EEF7 (Soft Blue-Grey) & #FFFFFF (Card Surfaces)
+   - 25% Structural Navy: #101044 (Deep Navy), #123B73 (Mid Navy), #060E1D (Cinematic Dark)
+   - 5% Accents: #16A34A (Engineering Green) & #008BD2 / #00C2FF (Brand Cyan-Blue)
+   - Secondary Text: #6D7293 (Muted Blue Grey)
+   - Border / Lines: #D1DCEB (Light Blue Grey)
+   ========================================================================== */
+
+/* Active link indicator in floating navbar dock */
+#techno-navbar .nav-pill-link.active {
+  background: #FFFFFF !important;
+  color: #008BD2 !important;
+  font-weight: 700;
+  border-color: #D1DCEB !important;
+  box-shadow: 0 2px 8px -1px rgba(0, 139, 210, 0.18), 0 1px 2px rgba(16, 16, 68, 0.05) !important;
+}
+
+/* Hero Section (Matching Solutions cinematic stage) */
+.about-hero-stage {
+  min-height: 52vh !important;
+  position: relative;
+  background-color: #0B1220;
+}
+
+/* Feature & Metric Cards */
+.about-metric-card {
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 16px -2px rgba(16, 16, 68, 0.05);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.about-metric-card:hover {
+  transform: translateY(-4px);
+  border-color: #008BD2;
+  box-shadow: 0 16px 28px -6px rgba(0, 139, 210, 0.12);
+}
+
+/* Executive Leader Cards (Clean modern light cards with subtle hover lift) */
+.leader-card-modern {
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 20px -3px rgba(16, 16, 68, 0.06);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.leader-card-modern:hover {
+  transform: translateY(-5px);
+  border-color: #008BD2;
+  box-shadow: 0 22px 35px -8px rgba(0, 139, 210, 0.15), 0 4px 12px rgba(16, 16, 68, 0.06);
+}
+
+/* Infrastructure Feature Card */
+.infra-item-card {
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  transition: all 0.25s ease;
+}
+
+.infra-item-card:hover {
+  border-color: #008BD2;
+  box-shadow: 0 10px 24px -4px rgba(0, 139, 210, 0.1);
+  transform: translateX(4px);
+}
+
+/* Solution Modern Card matching solutions.html */
+.solution-modern-card {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid #D1DCEB;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px -2px rgba(16, 16, 68, 0.06);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.solution-modern-card:hover {
+  transform: translateY(-6px);
+  border-color: #008BD2;
+  box-shadow: 0 20px 32px -8px rgba(0, 139, 210, 0.18), 0 4px 12px -2px rgba(16, 16, 68, 0.08);
+}
+
+.solution-image-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background-color: #E9EEF7;
+  overflow: hidden;
+}
+
+.solution-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.solution-modern-card:hover .solution-image-container img {
+  transform: scale(1.06);
+}
+
+.solution-swoop-blue,
+.solution-swoop-green {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 54px;
+  height: 44px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.solution-card-body {
+  padding: 1.25rem 1.25rem 1.15rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.solution-header-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+}
+
+.solution-icon-box {
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 0.65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon-bg-cyan {
+  background-color: #E0F2FE;
+  color: #0284C7;
+}
+
+.icon-bg-blue {
+  background-color: #EFF6FF;
+  color: #2563EB;
+}
+
+.icon-bg-teal {
+  background-color: #F0FDF4;
+  color: #16A34A;
+}
+
+.solution-title-box {
+  flex: 1;
+  min-width: 0;
+}
+
+.solution-title {
+  font-size: 0.95rem;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #101044;
+}
+
+.solution-title-sub {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #6D7293;
+  margin-top: 0.15rem;
+}
+
+.solution-desc {
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: #6D7293;
+  margin-bottom: 0.85rem;
+  flex: 1;
+}
+
+.solution-bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px solid #E9EEF7;
+}
+
+.solution-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.85rem;
+  height: 1.85rem;
+  border-radius: 9999px;
+  background-color: #E9EEF7;
+  color: #101044;
+  transition: all 0.25s ease;
+}
+
+.solution-modern-card:hover .solution-action-btn {
+  background-color: #008BD2;
+  color: #FFFFFF;
+  transform: translateX(3px);
+}

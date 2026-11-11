@@ -1,0 +1,6 @@
+# Robots.txt fo
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://bellatorengineers.in/sitemap.xml

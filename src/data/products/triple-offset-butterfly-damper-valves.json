@@ -1,0 +1,36 @@
+{
+  "id": "triple-offset-butterfly-damper-valves",
+  "title": "Triple Offset Butterfly Damper Valves",
+  "model": "BE-30 Series",
+  "image": "/Motorized-Triple-Offset-Butterfly-Damper-Valve.png",
+  "category": "isolation",
+  "categoryLabel": "Conical Cam Geometry",
+  "tagline": "Severe duty metal-to-metal zero-leakage triple eccentric damper for temperatures up to 650°C.",
+  "desc": "Combines two eccentric shaft offsets with a third conical angle offset on the seating surface. Eliminates rubbing friction across the entire 90° stroke, achieving true metal-to-metal zero leakage shutoff in high temperature gas and severe chemical processing.",
+  "longDesc": "Bellator BE-30 Triple Offset Valves represent the pinnacle of rotary valve engineering. The third conical offset ensures the disc engages the body seat only at the final point of shut-off, creating a non-rubbing, torque-seated metal-to-metal boundary that withstands extreme thermal cycling and aggressive chemical atmospheres.",
+  "keyHighlights": [
+    "Metal-to-Metal Zero Leakage shutoff (Class VI / Bubble Tight)",
+    "Operates seamlessly from -25°C up to +650°C",
+    "Laminated stainless steel & graphite or solid Inconel seal ring",
+    "Bi-directional zero-leakage pressure retention"
+  ],
+  "leakage": "Metal-to-Metal Zero Leakage (Class VI / Bubble Tight)",
+  "temp": "-25°C to +650°C",
+  "pressure": "PN10 / PN16 / PN25",
+  "sizes": "Ø150 mm to Ø1,200 mm & above",
+  "materials": "A216 Gr. WCB, A351 CF8M, Inconel 625 Laminated Seal Ring, Stellite Body Seat",
+  "actuation": "Electric Multi-Turn/Quarter-Turn Actuator, Pneumatic Cylinder, Manual Gear",
+  "standards": "API 609, ASME B16.34, ISO 10497 Fire Safe, CE / SIL-3 Qualified",
+  "features": [
+    "Zero-rubbing 90-degree rotary stroke eliminating galling",
+    "Stellite hard-faced integrally welded body seat",
+    "Full metallic fire-safe architecture",
+    "Low breakout and running torque characteristics"
+  ],
+  "applications": [
+    "High Temperature Steam and Hydrocarbon Vapors",
+    "Sulfur Recovery Units (SRU) & Acid Gas Streams",
+    "Refinery Catalytic Cracking (FCCU) Flue Gas",
+    "District Heating and Superheated Steam Lines"
+  ]
+}

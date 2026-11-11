@@ -1,0 +1,36 @@
+{
+  "id": "crystallizer-discharge-gate-valves",
+  "title": "Crystallizer Discharge Gate Valves",
+  "model": "CDGV Series",
+  "image": "/Motorized-Crystallizer-Discharge-Gate-Valve.png",
+  "category": "control",
+  "categoryLabel": "Flush Bottom Seat",
+  "tagline": "Sanitary pocketless flush-bottom discharge gate valve for sugar, ethanol, and slurry crystallization vessels.",
+  "desc": "Purpose-built flush-bottom gate valves installed at the lowest discharge point of crystallization pans and vacuum cookers in sugar, ethanol, and chemical plants. Eliminates dead pocket slurry stagnation and ensures complete, rapid tank discharge.",
+  "longDesc": "Bellator CDGV Crystallizer Discharge Gate Valves are custom-engineered for vacuum pans and crystallization cookers. The valve disc sits completely flush with the inside tank bottom, preventing slurry crystallization in stagnant dead pockets and allowing fast, unimpeded massecuite discharge.",
+  "keyHighlights": [
+    "Zero dead-pocket flush tank bottom seating",
+    "Wetted parts manufactured from sanitary SS304L / SS316L",
+    "Vacuum-tight sealing under full negative pressure",
+    "Fast automated opening with high-torque gearmotor"
+  ],
+  "leakage": "Tight Slurry & Liquor Isolation",
+  "temp": "Ambient to +180°C",
+  "pressure": "Full Vacuum to 4 bar",
+  "sizes": "DN200 to DN800",
+  "materials": "All Wetted Parts SS304L / SS316L, Carbon Steel Outer Yoke",
+  "actuation": "Electric Gearmotor with Limit Switches, Pneumatic Cylinder, Manual Wheel",
+  "standards": "Food & Sugar Processing Sanitary Hygiene Standards",
+  "features": [
+    "Polished wetted stainless steel surfaces preventing sugar adhesion",
+    "Heavy-duty knife or wedge gate with steam/hot water purge ports",
+    "O-ring or PTFE resilient perimeter seals for vacuum tightness",
+    "External rising spindle with protective boot cover"
+  ],
+  "applications": [
+    "Sugar Mill Vacuum Pan Massecuite Discharge",
+    "Ethanol Fermentation Vessel Bottom Drainage",
+    "Chemical & Fertilizer Slurry Crystallizers",
+    "Pharmaceutical Evaporator & Thickener Tanks"
+  ]
+}

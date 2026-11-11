@@ -1,0 +1,36 @@
+{
+  "id": "fabricated-double-beat-valves",
+  "title": "Fabricated Double Beat Valves",
+  "model": "FDBV Series",
+  "image": "/Double-Beat-Valve.png",
+  "category": "severe",
+  "categoryLabel": "Balanced Equilibrium",
+  "tagline": "Dual-seat pressure balanced throttle valve for large volumetric flow control of hot steam and process gas.",
+  "desc": "Dual-seat equilibrium throttle valve engineered for handling large volumetric throughput of hot gases and steam. The balanced plug construction cancels line pressure forces, enabling smooth modulation with miniature actuator sizes and reduced power demand.",
+  "longDesc": "The FDBV Series Fabricated Double Beat Valve utilizes two balanced seats on a common spindle. Because fluid pressure acts in opposite directions on the two seats, hydraulic forces are virtually neutralized, allowing massive steam or gas flows to be throttled with remarkable precision using compact actuators.",
+  "keyHighlights": [
+    "Balanced dual-seat geometry cancels line pressure forces",
+    "Enables high-precision modulation with low actuation power",
+    "Fabricated carbon steel or stainless construction up to DN1,500",
+    "Exceptional performance in pulsating high-temperature steam"
+  ],
+  "leakage": "Class IV Metal-to-Metal Throttling",
+  "temp": "Up to +500°C",
+  "pressure": "Up to PN16",
+  "sizes": "DN200 to DN1,500",
+  "materials": "Fabricated Carbon Steel IS2062, Stainless Steel 304L / 316L Internals",
+  "actuation": "Pneumatic Diaphragm / Piston Actuator with Positioner, Motorized Multi-Turn",
+  "standards": "ASME Sec. VIII, BS 5150",
+  "features": [
+    "Fabricated streamline flow chamber reducing turbulence",
+    "Dual plug and seat rings with hardfaced Stellite overlays",
+    "Linear characteristic throttling profile across full stroke",
+    "Live-loaded gland packing with lantern ring purge option"
+  ],
+  "applications": [
+    "Sugar Mill Steam Engine & Evaporator Exhaust Headers",
+    "Paper Mill Black Liquor Gas and Steam Throttling",
+    "Steel Mill Gas Mixing and Blast Furnace Gas Lines",
+    "High-Volume Low-Pressure Steam Pressure Reduction"
+  ]
+}

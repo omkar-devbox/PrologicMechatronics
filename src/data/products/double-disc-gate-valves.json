@@ -1,0 +1,36 @@
+{
+  "id": "double-disc-gate-valves",
+  "title": "Double Disc Gate Valves",
+  "model": "DDGV Series",
+  "image": "/Motorized-Double-Disc-Gate-Valve-main-image.webp",
+  "category": "isolation",
+  "categoryLabel": "Dirty Gas Isolation",
+  "tagline": "Robust dual disc wedging gate valve engineered for dirty, particulate-laden gas isolation with 100% full bore.",
+  "desc": "Fabricated wedging gate valve engineered for dirty and particulate-laden gas isolation. Small mechanical wedge expands dual disc plates firmly against hard-faced body seats upon closing. In open position, disc assembly retracts completely providing 100% full bore with zero pressure loss.",
+  "longDesc": "The DDGV Series Double Disc Gate Valve provides unobstructed full-bore gas passage when open, preventing accumulation of ash, dust, and heavy solids. Upon closure, an internal mechanical wedging mechanism pushes both discs outward against hardfaced body seats, ensuring reliable shutoff even in heavy particulate media.",
+  "keyHighlights": [
+    "100% Unobstructed Full Bore with zero pressure drop",
+    "Mechanical dual disc wedging action for high seating force",
+    "Stellite hardfaced seats resilient against abrasive erosion",
+    "Optional purge air connection for man-safe zero leakage"
+  ],
+  "leakage": "100% Isolation with Seal Air / Class VI Metal-to-Metal",
+  "temp": "-20°C to +500°C",
+  "pressure": "Differential Pressure up to 5,000 mmWC",
+  "sizes": "DN200 to DN3,000",
+  "materials": "Fabricated Carbon Steel IS2062, SS304L/316L, Stellite Hardfaced Seats",
+  "actuation": "Electric Actuator with Bevel Gear, Pneumatic Cylinder, Manual Handwheel",
+  "standards": "ASME Sec. VIII, AWS D1.1, EN 1751 Class 4",
+  "features": [
+    "Dual disc floating construction with central spreading wedge",
+    "Bottom dust purge ports and cleanout access covers",
+    "Self-cleaning seating surfaces that scrape deposits away",
+    "Heavy-duty exterior yoke and rising stem assembly"
+  ],
+  "applications": [
+    "Blast Furnace Gas & Coke Oven Gas Handling",
+    "Sponge Iron DRI Plant De-dusting Systems",
+    "Cement Clinker Cooler & Raw Meal Ducts",
+    "Heavy Ash-Laden Boiler Flue Gas Ducts"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "back-draft-damper-valves",
+  "title": "Back Draft Damper Valves",
+  "model": "BE-120 Series",
+  "image": "/BE120-BackDraft-Damper-Valves.png",
+  "category": "severe",
+  "categoryLabel": "Reverse Flow Check",
+  "tagline": "Self-actuating non-return gravity damper preventing reverse gas flow and protecting offline industrial fans.",
+  "desc": "Automatic gravity and counterweight-actuated non-return dampers. Sensitive aerodynamic blade balancing allows forward gas flow with minimal pressure resistance, while instantly shutting tight when reverse air currents or fan shutdowns occur.",
+  "longDesc": "Bellator BE-120 Series Back Draft Dampers are automatic non-return check valves for large air and gas systems. Featuring precision counterbalanced blades that swing open with low forward velocity and slam shut immediately upon flow reversal, protecting fans and blowers from reverse windmilling.",
+  "keyHighlights": [
+    "Self-actuating gravity and counterweight operation with zero power required",
+    "Protects redundant fans and blowers from reverse airflow damage",
+    "Low opening pressure threshold with adjustable counterweight arms",
+    "Custom duct profiles up to 4,000 x 4,000 mm"
+  ],
+  "leakage": "Automatic Reverse Flow Prevention",
+  "temp": "Up to +350°C",
+  "pressure": "Up to 3,500 mmWC",
+  "sizes": "Custom Duct Dimensions to 4,000 x 4,000 mm",
+  "materials": "Corten Steel, Low-Inertia Aluminum / SS304 Blades, Precision Bronze Bushings",
+  "actuation": "Self-Actuating Gravity / Adjustable Counterweight Arm",
+  "standards": "AMCA 500-D, EN 1751",
+  "features": [
+    "Aerodynamically balanced low-inertia blade construction",
+    "External adjustable counterweight levers for sensitivity tuning",
+    "Oil-impregnated bronze or sealed stainless ball bearings",
+    "Neoprene or stainless blade tip seals for tight reverse shutoff"
+  ],
+  "applications": [
+    "Parallel Fan Discharge Headers (FD/ID Fan Discharge)",
+    "Building Ventilation and Exhaust Plenums",
+    "Turbine Generator Ventilation Outlets",
+    "Emergency Standby Blower Discharge Lines"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "fire-damper-valves",
+  "title": "Fire Damper Valves",
+  "model": "BE-FD Series",
+  "image": "/Fire-Damper.png",
+  "category": "severe",
+  "categoryLabel": "Fire & Smoke Barrier",
+  "tagline": "Certified life-safety fire damper with thermal fusible link release and spring-return barrier closure.",
+  "desc": "Life-safety certified dampers engineered for marine vessel air distribution, offshore platforms, and hazardous industrial ventilation ducts. Rapid mechanical spring-closure triggered by thermal fusible link or electric fire alarm signal to compartmentalize smoke and fire.",
+  "longDesc": "Bellator BE-FD Series Fire Dampers are certified passive fire protection barriers designed to prevent the spread of flames and lethal smoke through HVAC ducts. Upon detecting temperatures exceeding the fusible link rating (72°C/95°C) or receiving a central fire alarm signal, the spring-loaded mechanism instantly snaps the damper shut.",
+  "keyHighlights": [
+    "Certified fire barrier integrity up to 120 / 180 minutes",
+    "Thermal fusible link release options (72°C, 95°C, 140°C)",
+    "Approved for marine vessels, offshore rigs, and industrial complexes",
+    "Fail-safe mechanical spring return closure"
+  ],
+  "leakage": "Certified Fire & Smoke Barrier",
+  "temp": "72°C / 95°C / 140°C Fusible Link Trigger Options",
+  "pressure": "HVAC Duct Working Pressure",
+  "sizes": "Custom Square & Round Dimensions",
+  "materials": "Heavy Galvanized Steel, SS304L, Marine Grade SS316L",
+  "actuation": "Certified Thermal Fusible Link + Spring Return / Motorized Spring Return",
+  "standards": "Tested to International Fire Integrity Standards, Marine Society Approved",
+  "features": [
+    "Precision calibrated thermal fusible link mechanism",
+    "Intumescent smoke perimeter seals that swell under heat",
+    "Heavy-gauge galvanized or stainless steel sleeve frame",
+    "Remote electric reset actuator option with status limit switches"
+  ],
+  "applications": [
+    "Marine Ships, Cruise Liners & Offshore Oil Platforms",
+    "High-Rise Commercial & Industrial Ventilation Ducts",
+    "Hazardous Chemical and Petrochemical Control Rooms",
+    "Underground Tunnels & Metro Rail Substation HVAC"
+  ]
+}

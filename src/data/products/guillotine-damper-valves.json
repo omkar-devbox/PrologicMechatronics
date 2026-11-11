@@ -1,0 +1,36 @@
+{
+  "id": "guillotine-damper-valves",
+  "title": "Guillotine Damper Valves",
+  "model": "BE-90 Series",
+  "image": "/BE90-Motorized-Guillotine-Damper-Valve.png",
+  "category": "isolation",
+  "categoryLabel": "Sliding Blade Gate",
+  "tagline": "Heavy-duty sliding blade gate damper engineered to slice through heavy ash sediment for 100% duct isolation.",
+  "desc": "Heavy-duty sliding blade gate dampers providing complete full-duct isolation during plant turnarounds and boiler inspections. Features self-cleaning rack and pinion, screw, or chain drives designed to slice through heavy fly ash and dust sediment without binding.",
+  "longDesc": "Bellator BE-90 Series Guillotine Dampers are designed for total duct shutoff in dirty, solid-laden flue gas streams. When open, the blade is 100% retracted from the gas flow, eliminating flow obstruction and erosion. The tapered blade edge cuts cleanly through dense ash build-up during closure.",
+  "keyHighlights": [
+    "Custom sizes up to 6,000 x 6,000 mm in square/rectangular/round",
+    "Zero duct flow obstruction and pressure drop in open position",
+    "100% Man-Safe personnel protection when combined with seal air",
+    "Self-cleaning drive systems resistant to heavy particulate binding"
+  ],
+  "leakage": "Up to 100% Man-Safe with Seal Air System",
+  "temp": "Up to +750°C",
+  "pressure": "Differential Pressure up to 6,000 mmWC",
+  "sizes": "Custom Square & Rectangular up to 6,000 x 6,000 mm",
+  "materials": "IS2062, ASTM A516 Gr-70, SS316L Blade, Inconel Flexible Perimeter Seals",
+  "actuation": "Rack & Pinion with Electric Gearmotor, Chain Drive, Pneumatic Cylinder",
+  "standards": "ASME Sec. VIII, AMCA 500-D, NFPA 85",
+  "features": [
+    "Heavy structural steel framework with guide rollers and scraper blades",
+    "Flexible metallic Inconel or stainless perimeter leaf seals",
+    "External seal air pressurization plenum",
+    "Motorized rack & pinion or heavy-duty twin lead screw actuation"
+  ],
+  "applications": [
+    "Thermal Power Plant Utility Boiler Outlets",
+    "Electrostatic Precipitator (ESP) Inlet & Outlet Isolation",
+    "Flue Gas Desulfurization (FGD) System Isolation",
+    "Cement Raw Mill and Kiln Exhaust Ducts"
+  ]
+}

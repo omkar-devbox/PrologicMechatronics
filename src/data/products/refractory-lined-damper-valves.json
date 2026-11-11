@@ -1,0 +1,36 @@
+{
+  "id": "refractory-lined-damper-valves",
+  "title": "Refractory Lined Damper Valves",
+  "model": "BE-140 Series",
+  "image": "/BE140-Pneumatic-Refractory-Lined-Damper-Valves.png",
+  "category": "severe",
+  "categoryLabel": "Severe Thermal Resilience",
+  "tagline": "Ultra-high temperature refractory lined damper valve engineered for continuous service up to 1,200°C.",
+  "desc": "Engineered for extreme thermal conditions up to 1,200°C in cement rotary kilns, blast furnaces, thermal oxidizers, and metallurgical smelters. Heavy steel casing and disc are lined with dense high-alumina refractory castable anchored by stainless V-studs.",
+  "longDesc": "Bellator BE-140 Series Refractory Lined Damper Valves provide reliable gas control in the hottest industrial applications. The interior casing and blade are protected by a thick layer of dense refractory castable anchored with Inconel or stainless steel V-studs, keeping outer shell temperatures safe and preserving structural integrity.",
+  "keyHighlights": [
+    "Continuous thermal operating temperature up to 1,200°C",
+    "Dense high-alumina castable lining anchored with stainless V-studs",
+    "Water-cooled shaft and packing gland cooling jacket options",
+    "Resistant to severe thermal shock and abrasive particulate erosion"
+  ],
+  "leakage": "Class III / Class IV (Up to 99% Sealing)",
+  "temp": "Up to +1,200°C Continuous Thermal Duty",
+  "pressure": "Up to 6,000 mmWC",
+  "sizes": "DN300 to DN3,500",
+  "materials": "Heavy Carbon Steel Shell, High-Alumina Refractory Castable, Inconel / SS310 Anchors",
+  "actuation": "Heavy-Duty Pneumatic Cylinder with Water-Cooled Shafts, Motorized Gearbox",
+  "standards": "Severe Process Metallurgy Standards, ASME Sec. VIII",
+  "features": [
+    "Engineered refractory anchor pattern with thermal expansion joints",
+    "Hollow water-cooled drive shaft and purge-cooled stuffing boxes",
+    "Heavy-duty outboard roller bearings on elevated stanchions",
+    "Refractory step seat design delivering tight high-temperature sealing"
+  ],
+  "applications": [
+    "Cement Plant Rotary Kiln Exhaust & Preheater Tower",
+    "Steel Mill Blast Furnace & Direct Reduced Iron (DRI) Plants",
+    "Hazardous Waste Thermal Oxidizers & Incinerators",
+    "Non-Ferrous Metallurgical Smelters & Roasters"
+  ]
+}
