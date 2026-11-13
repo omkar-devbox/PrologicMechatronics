@@ -125,22 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize Quick Copy Actions
   initCopyButtons();
 
-  // Mobile menu toggle
-  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-  const mobileMenu = document.getElementById('mobile-menu');
-  if (mobileMenuBtn && mobileMenu) {
-    mobileMenuBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      mobileMenu.classList.toggle('hidden');
-    });
-
-    mobileMenu.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
-        mobileMenu.classList.add('hidden');
-      });
-    });
-  }
-
   // Contact / RFQ form submission and validation
   const contactForm = document.getElementById('contact-form') as HTMLFormElement | null;
   const statusMsg = document.getElementById('status-message');

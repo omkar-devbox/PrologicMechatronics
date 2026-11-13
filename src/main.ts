@@ -1,36 +1,8 @@
 import './style.css';
+import { initSharedNavigation } from './assets/js/nav';
 
-// Navigation menu toggle (mobile button & dock circle button)
-const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-const dockMenuBtn = document.getElementById('dock-menu-btn');
-const mobileMenu = document.getElementById('mobile-menu');
-
-function toggleMenu() {
-  if (!mobileMenu) return;
-  const isHidden = mobileMenu.classList.contains('hidden');
-  if (isHidden) {
-    mobileMenu.classList.remove('hidden');
-  } else {
-    mobileMenu.classList.add('hidden');
-  }
-}
-
-if (mobileMenuBtn && mobileMenu) {
-  mobileMenuBtn.addEventListener('click', toggleMenu);
-}
-
-if (dockMenuBtn && mobileMenu) {
-  dockMenuBtn.addEventListener('click', toggleMenu);
-}
-
-if (mobileMenu) {
-  // Close mobile menu when clicking navigation links
-  mobileMenu.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      mobileMenu.classList.add('hidden');
-    });
-  });
-}
+// Initialize Unified Navigation across all viewports
+initSharedNavigation('home');
 
 /* ==========================================================================
    3D Fluid / Gas Particle Wave Simulation (Aerodynamic Damper Dynamics)
@@ -610,8 +582,8 @@ function initScrollLoadUnload() {
 
   const observerOptions: IntersectionObserverInit = {
     root: null,
-    rootMargin: '0px 0px -40px 0px',
-    threshold: 0.1
+    rootMargin: '0px 0px 80px 0px',
+    threshold: 0.02
   };
 
   const observer = new IntersectionObserver((entries) => {
@@ -620,9 +592,8 @@ function initScrollLoadUnload() {
       if (entry.isIntersecting) {
         // Load effect when scrolled into view
         el.classList.add('is-loaded');
-      } else {
-        // Unload effect when scrolled out of view
-        el.classList.remove('is-loaded');
+        // Keep loaded to avoid white blank screen flashing when scrolling on mobile
+        observer.unobserve(el);
       }
     });
   }, observerOptions);
@@ -845,36 +816,24 @@ function initHeroMultiSlider() {
   let currentIndex = 0;
   const totalSlides = Math.min(bgSlides.length, contentSlides.length);
   let slideTimer: ReturnType<typeof setInterval> | null = null;
-  const SLIDE_INTERVAL = 4000; // 4 seconds per slide
+  const SLIDE_INTERVAL = 5000; // 5 seconds per slide for comfortable mobile reading
 
   function goToSlide(index: number) {
     currentIndex = (index + totalSlides) % totalSlides;
 
     // Update Background images
     bgSlides.forEach((slide, i) => {
-      if (i === currentIndex) {
-        slide.classList.add('is-active');
-      } else {
-        slide.classList.remove('is-active');
-      }
+      slide.classList.toggle('is-active', i === currentIndex);
     });
 
     // Update Content Data (Headlines, badges, descriptions, CTAs)
     contentSlides.forEach((slide, i) => {
-      if (i === currentIndex) {
-        slide.classList.add('is-active');
-      } else {
-        slide.classList.remove('is-active');
-      }
+      slide.classList.toggle('is-active', i === currentIndex);
     });
 
     // Update Dots indicator
     dots.forEach((dot, i) => {
-      if (i === currentIndex) {
-        dot.classList.add('is-active');
-      } else {
-        dot.classList.remove('is-active');
-      }
+      dot.classList.toggle('is-active', i === currentIndex);
     });
   }
 
@@ -919,6 +878,34 @@ function initHeroMultiSlider() {
   // Pause on user hover over hero section for reading ease
   heroSection.addEventListener('mouseenter', stopAutoSlide);
   heroSection.addEventListener('mouseleave', startAutoSlide);
+
+  // Mobile Touch Swipe Navigation (swiping left goes next, swiping right goes prev)
+  let touchStartX = 0;
+  let touchEndX = 0;
+  let touchStartY = 0;
+  let touchEndY = 0;
+
+  heroSection.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].clientX;
+    touchStartY = e.changedTouches[0].clientY;
+    stopAutoSlide();
+  }, { passive: true });
+
+  heroSection.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].clientX;
+    touchEndY = e.changedTouches[0].clientY;
+    const diffX = touchEndX - touchStartX;
+    const diffY = touchEndY - touchStartY;
+    // Only trigger if horizontal swipe is prominent and larger than vertical scroll
+    if (Math.abs(diffX) > 40 && Math.abs(diffX) > Math.abs(diffY)) {
+      if (diffX < 0) {
+        goToSlide(currentIndex + 1);
+      } else {
+        goToSlide(currentIndex - 1);
+      }
+    }
+    startAutoSlide();
+  }, { passive: true });
 
   // Initialize first slide and start timer
   goToSlide(0);

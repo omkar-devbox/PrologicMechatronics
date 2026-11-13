@@ -57,22 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize Home-style Bidirectional Scroll Animation System
   initScrollLoadUnload();
 
-  // Mobile menu toggle
-  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-  const mobileMenu = document.getElementById('mobile-menu');
-  if (mobileMenuBtn && mobileMenu) {
-    mobileMenuBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      mobileMenu.classList.toggle('hidden');
-    });
-
-    mobileMenu.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
-        mobileMenu.classList.add('hidden');
-      });
-    });
-  }
-
   // Job filtering logic
   const deptBtns = document.querySelectorAll<HTMLButtonElement>('.dept-btn');
   const jobCards = document.querySelectorAll<HTMLElement>('.job-card');

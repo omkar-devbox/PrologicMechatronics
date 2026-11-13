@@ -10,7 +10,10 @@
   html {
     scroll-behavior: smooth;
     font-size: 17px;
-    background-color: #E9EEF7;
+    background-color: #031427;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
   }
 
   /* Ensure standard scroll margin for hash anchor targets */
@@ -33,6 +36,10 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+    position: relative;
   }
 
   ::selection {
@@ -123,14 +130,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0;
+  visibility: hidden;
   transform: scale(1.03);
-  transition: opacity 0.5s ease-in-out, transform 1.5s ease-out;
+  transition: opacity 0.6s ease-in-out, transform 1.5s ease-out, visibility 0.6s step-end;
   will-change: opacity, transform;
 }
 
 .hero-slide-bg.is-active {
   opacity: 1;
+  visibility: visible;
   transform: scale(1);
+  transition: opacity 0.6s ease-in-out, transform 1.5s ease-out, visibility 0s;
 }
 
 .hero-slide-bg::before {
@@ -150,24 +160,34 @@
   }
 }
 
-/* Slide Content Transition */
+/* Slide Content Transition - CSS Grid stacking prevents layout shifts and overlapping text */
+#hero-slides-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
 .hero-content-slide {
-  position: absolute;
-  inset: 0;
+  grid-area: 1 / 1;
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
-  transform: translateY(12px);
-  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+  transform: translateY(10px);
+  transition: opacity 0.35s ease-out, transform 0.35s ease-out, visibility 0.35s step-end;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 1;
 }
 
 .hero-content-slide.is-active {
-  position: relative;
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
   transform: translateY(0);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out, visibility 0s;
+  z-index: 2;
 }
 
 /* Slider Controls - Bottom Center Matching User Screenshot */
@@ -180,6 +200,13 @@
   align-items: center;
   gap: 1.5rem;
   z-index: 25;
+}
+
+@media (max-width: 640px) {
+  .hero-slider-controls {
+    bottom: 1.25rem;
+    gap: 1rem;
+  }
 }
 
 .hero-slider-dot {
@@ -1919,6 +1946,17 @@ laser-line-emerald {
   filter: blur(0px);
 }
 
+@media (max-width: 768px) {
+  .scroll-reveal-left,
+  .scroll-reveal-right {
+    transform: translateY(20px);
+  }
+  .scroll-reveal-left.is-loaded,
+  .scroll-reveal-right.is-loaded {
+    transform: translateY(0);
+  }
+}
+
 .scroll-reveal-scale {
   opacity: 0;
   transform: scale(0.93) translateY(24px);
@@ -2233,6 +2271,10 @@ laser-line-emerald {
   background: #FFFFFF;
   border: 1px solid #D1DCEB;
   box-shadow: 0 20px 40px -10px rgba(16, 16, 68, 0.15);
+  max-height: calc(100vh - 100px);
+  max-height: calc(100dvh - 100px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .navbar-scrolled .nav-logo-text {
